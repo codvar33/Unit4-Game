@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Game</title>
+	
+	
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
+
+</head>
+<body>
+
+<div class="wrapper">
+<h1> Crystal Collector </h1>
+
+<div class="Instructions container jumbotron">
+	<div class="row">
+		<h2> Instructions </h2>
+		<ol>
+			<li>You will be given a random number at the start of the game. </li>
+			<li>Each crystal below is worth a certain amount. You must click them to collect their value.</li>
+			<li>You win if you can match your crystal's to the set amount</li>
+			<li>You lose if you go over set amount.</li>
+			<li>Each crystal's value will be reset at the begining of each new game.</li>
+		</ol>
+	</div>
+</div>
+
+<div>
+<h2>Match this number</h2>
+<div id="beginingNum" class="number"></div>
+</div>
+
+<hr>
+
+<div>
+	<h2>Your Total</h2>
+	<div id="playerNum" class="number"></div>
+</div>
+
+<div class="row">
+	<!--Crystal images-->
+	<img src="assets/images/Gems-01.jpg" class="col hm-zoom" id="white-gem-image">
+	<img src="assets/images/Gems-02.jpg" class="col" id="blue-gem-image">
+	<img src="assets/images/Gems-03.jpg" class="col" id="yellow-gem-image">
+	<img src="assets/images/Gems-04.jpg" class="col" id="red-gem-image">
+</div>
+
+<div>
+	<p class="winner">wins:<span id="wins"></span></p>
+	<p class="looser">Losses:<span id="losses"></span></p>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/scripts.js"></script>
+
+</body>
+
+
+</html>

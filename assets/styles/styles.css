@@ -1,0 +1,47 @@
+body {
+	text-align:center;
+}
+
+.Instructions {
+}
+
+body {
+    background-color: lightblue;
+}
+
+
+img {
+	width: 200px;
+}
+
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #42c8f4;
+	font-variant: small-caps;
+	font-size: 3.5em;
+}
+
+h2 h3 p {
+	font-family: Helvetica, sans-serif;
+}
+
+ol {
+	text-align: center;
+}
+
+.number {
+	font-size: 3em;
+	color: #42c8f4;
+}
+
+.winner {
+	color: #3fd34e;
+	font-size: 2em;
+}
+
+.looser {
+	color: #e00606;
+	font-size: 2em;
+}
+
+
